@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = {version="==0.3.26", index="pypi"}
+langchain-mistralai = {version="==0.2.11", index="pypi"}
+mistral_common = {version="==1.8.1", index="pypi"}
+numpy = {version="==2.2.6", index="pypi"}
+jupyter = {version="==1.1.1", index="pypi"}
+ipykernel = {version="==6.29.5", index="pypi"}
+matplotlib = {version="==3.10.3", index="pypi"}
+
+[requires]
+python_version="3.10"
